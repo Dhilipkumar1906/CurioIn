@@ -8,7 +8,7 @@ export default function LandingPage() {
       <nav style={{ padding: '1rem 2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'var(--card-bg)', borderBottom: '1px solid var(--border)' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: '800', fontSize: '1.5rem', color: 'var(--primary)' }}>
           <BrainCircuit size={32} />
-          CurioPath
+          CurioIn
         </div>
         <Link to="/auth" className="btn-primary">Get Started</Link>
       </nav>
